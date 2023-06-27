@@ -4,11 +4,11 @@ from bs4 import BeautifulSoup
 from urllib.request import urlretrieve
 
 # 保存先のディレクトリ名
-dir_name = 'C:\\Users\\prexs\\Desktop\\img_classfied\\とびら'
+dir_name = 'C:\\Users\\'
 os.makedirs(dir_name, exist_ok=True)
 
 # 検索結果のURL
-url = 'https://www.photo-ac.com/main/search?q=%E3%81%A8%E3%81%B3%E3%82%89&pp=210&qid=&creator=&ngcreator=&nq=&srt=dlrank&orientation=all&sizesec=all&color=all&model_count=-1&age=all&mdlrlrsec=all&prprlrsec=all'
+url = ''
 
 # ページを取得
 response = requests.get(url)
